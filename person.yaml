@@ -1,0 +1,17 @@
+- name: Kavitha
+  DOB: 2020-09-09
+  address: 
+    address-line1: badanahatti
+    address-line2: kurugodu
+    city: Bellary
+  email: kavitha.reddy@gmail.com
+
+- name: padma
+  DOB: "2020-09-09"
+  address:
+  - address-line1: badanahatti
+    address-line2: kurugodu
+    city: Bellary
+  - address-line1: bellary
+    city: bengaluru
+  email: padma.reddy@gmail.com

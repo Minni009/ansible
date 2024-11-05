@@ -1,0 +1,23 @@
+{
+    "name": "Kavitha",
+    "DOB": "2000-09-09",
+    "address": [
+    {
+
+        "address-line": "badanahatti",
+         "city": "ben",
+         "type": "home"
+    },
+    {
+        "address-line": "badanahatti",
+         "city": "ben",
+         "type": "office"
+
+    }
+
+
+    ]
+         
+
+}
+
