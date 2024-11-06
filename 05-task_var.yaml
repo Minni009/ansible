@@ -1,0 +1,13 @@
+#Task level variables
+- name: variables with task level
+  hosts: localhost
+  vars:
+     course: "Devops"
+     trainer: "Shiva"
+     duration: "110hours"
+
+  tasks:
+  vars: #task level
+      course: "Devops and AWS"
+  ansible.builtin.debug:
+     msg: "Hi {{course}}, i am {{trainer}} with {{duration}}"
