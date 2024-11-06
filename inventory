@@ -1,6 +1,16 @@
 92.22.33.300
 199.322.32.0999
 
+[localhost]
+localhost
+
+[localhost:vars]
+course="Devops from inventory"
+trainer="Shiva"
+duration="110hrs"
+
+
+
 [web]
 3.85.120.224
 
