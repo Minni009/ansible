@@ -6,7 +6,7 @@
      duration: "110hrs"
 
   tasks:
-  - name: check variables
-    ansible.builtin.debug:
-    ansible.builtin.set_fact:
+   - name: check variables
+     ansible.builtin.debug:
+     ansible.builtin.set_fact:
       msg: "Hi, {{Course}}"
