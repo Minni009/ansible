@@ -29,5 +29,5 @@
       msg: "name: {{Trainer}}"
   
   - name: print key value pair
-     ansinle.builtin.debug:
+    ansinle.builtin.debug:
        msg: "name: {{NAME}}"
