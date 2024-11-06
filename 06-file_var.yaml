@@ -5,6 +5,6 @@
   - variables.yaml     
   tasks:
   - name: check variables
-    ansible.builtin.debus:
+    ansible.builtin.debug:
       msg: "Hi {{course}}, i am {{trainer}} with {{duration}}"
      
