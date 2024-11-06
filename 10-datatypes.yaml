@@ -13,6 +13,7 @@
       docker: 4
     Trainer: true # Boolean type
   tasks:
+  
   - name: print key value pair
     ansinle.builtin.debug:
       msg: "name: {{NAME}}"
