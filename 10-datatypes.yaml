@@ -27,7 +27,9 @@
   - name: print Boolean
     ansible.builtin.debug:
       msg: "name: {{Trainer}}"
+
+  - name: key value
+    ansible.builtin.debug:
+      msg: "name: {{NAME}}"
   
-  - name: print key value pair
-    ansinle.builtin.debug:
-       msg: "name: {{NAME}}"
+  
