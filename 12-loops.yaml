@@ -4,7 +4,7 @@
   - name: loops
     ansible.builtin.debug:
        msg: "hello {{item}}" #item is a defined keyword
-    loops:
+    loop:
     - ramesh
     - suresh
     - Robert
