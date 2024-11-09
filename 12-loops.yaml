@@ -1,0 +1,11 @@
+- name: loops
+  hosts: localhost
+  tasks:
+  - name: print persons
+    ansible.builtin.debug:
+    msg: "hello {{item}}" #item is a defined keyword
+    loops:
+    - ramesh
+    - suresh
+    - Robert
+    - malli

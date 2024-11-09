@@ -13,9 +13,6 @@
       docker: 4
     Trainer: true # Boolean type
   tasks:
-
-  
-
   - name: print list
     ansible.builtin.debug:
       msg: "skills: {{skills}}"
